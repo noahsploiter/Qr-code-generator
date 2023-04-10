@@ -1,0 +1,75 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 380px;
+}
+
+.app_form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.app_form-logo {
+  max-width: 10rem;
+  max-height: 10rem;
+  margin: auto;
+}
+
+.app_form h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #ef5b0c;
+  margin-bottom: 2rem;
+}
+
+.app_form input {
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border: 1px solid #54bab9;
+  outline: none;
+}
+
+.app_form input:focus {
+  border: 2px solid #59ce8f;
+}
+
+.app_form button {
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #54bab9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/*will use this css later*/
+#btn-red {
+  background-color: #eb1d36;
+}
+
+.app_qr-code {
+  width: 450px;
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 2px solid #ef5b0c;
+}
+
+.app_qr-code img {
+  max-height: 400px;
+  transition: all 0.3s ease;
+}
